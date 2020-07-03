@@ -25,6 +25,9 @@
 /* Begin PBXFileReference section */
 		A503DEB524898DD100175874 /* Shift_Reduce */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Shift_Reduce; sourceTree = BUILT_PRODUCTS_DIR; };
 		A503DEB824898DD100175874 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A503DEBF24898E8A00175874 /* dfatable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = dfatable.hpp; sourceTree = "<group>"; };
+		A5DD8891248A18B3002C5D5C /* DFAstateInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DFAstateInfo.h; sourceTree = "<group>"; };
+		A5DD8892248A2072002C5D5C /* terminalitem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = terminalitem.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				A503DEB824898DD100175874 /* main.cpp */,
+				A5DD8891248A18B3002C5D5C /* DFAstateInfo.h */,
+				A5DD8892248A2072002C5D5C /* terminalitem.h */,
+				A503DEBF24898E8A00175874 /* dfatable.hpp */,
 			);
 			path = Shift_Reduce;
 			sourceTree = "<group>";
